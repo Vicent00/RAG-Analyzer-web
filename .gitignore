@@ -1,0 +1,102 @@
+# ===========================================
+# PYTHON
+# ===========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ===========================================
+# VIRTUAL ENVIRONMENTS
+# ===========================================
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# ===========================================
+# IDE & EDITORS
+# ===========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# ===========================================
+# OPERATING SYSTEM
+# ===========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ===========================================
+# PROJECT SPECIFIC - DATOS EXTRAÍDOS
+# ===========================================
+# Archivos de datos extraídos (NO versionar)
+data/knowledge_base.jsonl
+data/chunks.jsonl
+data/test_*.jsonl
+data/test_*.txt
+
+# ===========================================
+# PROJECT SPECIFIC - LOGS
+# ===========================================
+# Logs de extracción (NO versionar)
+logs/
+*.log
+
+# ===========================================
+# PROJECT SPECIFIC - ARCHIVOS TEMPORALES
+# ===========================================
+# Archivos de prueba temporales
+test_*.py
+temp_*
+*.tmp
+*.temp
+
+# ===========================================
+# PROJECT SPECIFIC - CONFIGURACIÓN
+# ===========================================
+# Variables de entorno
+.env
+.env.local
+.env.production
+.env.staging
+
+# ===========================================
+# PROJECT SPECIFIC - CACHE Y TEMPORALES
+# ===========================================
+# Cache de scraping
+.cache/
+cache/
+*.cache
+
+# Archivos de backup
+*.bak
+*.backup
